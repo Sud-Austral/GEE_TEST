@@ -28,7 +28,7 @@ jobs:
               run:  |
                    python credentials.py
                    
-                   python gases/functions/server_CO.py
+                   python server_CO.py
                    
               env:
                   EARTHENGINE_TOKEN: ${{ secrets.EARTHENGINE_TOKEN }}
